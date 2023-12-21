@@ -10,6 +10,7 @@ import {
 } from "@react-navigation/bottom-tabs";
 import { BottomTabParamList } from "../types";
 import { AntDesign } from "@expo/vector-icons";
+
 const Tab = createBottomTabNavigator<BottomTabParamList>();
 
 const MainNavigation = () => {
